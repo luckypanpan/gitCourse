@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  coursename: MyString
+  period: 1
+  credit: 1
+  degreecourse: MyString
+  examtype: MyString
+  teacher: MyString
+  classplace: MyString
+
+two:
+  coursename: MyString
+  period: 1
+  credit: 1
+  degreecourse: MyString
+  examtype: MyString
+  teacher: MyString
+  classplace: MyString
