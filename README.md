@@ -20,11 +20,11 @@
 ```
       rails generate controller liupan skip
       rails generate controller liupan goodbye
- ```
+```
 3) Fire up your server using rails server
- ```
+```
        rails server
- ```
+```
  二、 课程数据库增删改查,[演示戳这里](https://liupan.herokuapp.com/courses)
 ```
  rails generate controller courses
