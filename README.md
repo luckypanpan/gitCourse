@@ -12,6 +12,7 @@
   
 ## 使用:
 一、页面跳转，[演示戳这里](https://liupan.herokuapp.com/liupan/skip)
+在终端执行以下代码
 1) create a new Rails application
 ```
       rails new liu
@@ -26,6 +27,7 @@
        rails server
 ```
  二、 课程数据库增删改查,[演示戳这里](https://liupan.herokuapp.com/courses)
+在终端执行以下代码
 ```
  rails generate controller courses
  rails server
