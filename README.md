@@ -13,18 +13,18 @@
 ## 使用:
 # 页面跳转，[演示戳这里](https://liupan.herokuapp.com/liupan/skip)
 1) create a new Rails application
-    ```
+```
       rails new liu
-    ```
+```
 2) 生成控制器liupan，方法skip和 goodbye
-    ```
+```
       rails generate controller liupan skip
       rails generate controller liupan goodbye
-    ```
+ ```
 3) Fire up your server using rails server
-    ```
+ ```
        rails server
-    ```
+ ```
  # 课程数据库增删改查,[演示戳这里](https://liupan.herokuapp.com/courses)
  ```
  rails generate controller courses
