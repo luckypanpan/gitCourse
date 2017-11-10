@@ -1,7 +1,9 @@
 ## README
   # CourseHomework
 * 在 ruby rails 框架中实现一个简单主页，实现以下功能：
-    （1）能够 link 到其他主页（2） 显示本地时间（3）点击按钮，实现页面跳转
+（1）能够 link 到其他主页
+（2）显示本地时间
+（3）点击按钮，实现页面跳转
 * 在 ruby rails 框架中实现数据库基本增删查改操作，并在网页前端实现对应操作的数据显示。
 
 ## 说明:
@@ -46,11 +48,11 @@
 
 1 显示本地时间
 
-<img src="/lib/University of Chinese Academy of Sciences.PNG" width="700">
+<img src="/lib/skip.PNG" width="700">
 
 2 点击按钮，链接跳转到国科大主页(http://www.gucas.ac.cn/)
 
-<img src="/lib/skip.PNG" width="700"> 
+<img src="/lib/University of Chinese Academy of Sciences.PNG" width="700">
 
 3 点击按钮，跳转到goodbye页面
 
