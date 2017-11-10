@@ -41,11 +41,23 @@
 # 结果展示和简述
 一、实现简单主页(https://liupan.herokuapp.com/liupan/skip)
 1 点击按钮，链接跳转到国科大主页(http://www.gucas.ac.cn/)
-<img src="/lib/University of Chinese Academy of Sciences.PNG" width="700">  
+
+<img src="/lib/University of Chinese Academy of Sciences.PNG" width="700">
+
 2 显示本地时间
+
 <img src="/lib/skip.PNG" width="700"> 
+
 3 点击按钮，跳转到goodbye页面
+
 <img src="/lib/goodbye.PNG" width="700"> 
+
 二、 课程数据库增删改查及显示
+1 展示界面
+
 <img src="/lib/courses.PNG" width="700"> 
+
+2 增加课程
+
+
 
