@@ -29,7 +29,7 @@
 二、 课程数据库增删改查及检查
 1) 使用rails的scaffold创建Course模板
 ```
-       rails generate scaffold Courses coursename:string period:integer credit:integer degreecourse:string examtype:string teacher:string  classplace:string 
+       rails generate scaffold Course coursename:string period:integer credit:integer degreecourse:string examtype:string teacher:string  classplace:string 
 ``` 
 2) 数据库迁移
 ```
