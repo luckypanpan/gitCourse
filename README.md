@@ -26,18 +26,18 @@
        rails server
 ```
 二、 课程数据库增删改查及检查,[演示戳这里](https://liupan.herokuapp.com/courses)
-1)使用rails的scaffold创建Course模板
-  ```
+1) 使用rails的scaffold创建Course模板
+```
        rails generate scaffold Courses coursename:string period:integer credit:integer degreecourse:string examtype:string teacher:string  classplace:string 
 ``` 
-2)数据库迁移
-  ```
+2) 数据库迁移
+```
        rake db:migrate
 ```
 3)启动rails服务器
-   ```
+```
        rails s
- ```
+```
 # 结果展示和简述
 一、实现简单主页(https://liupan.herokuapp.com/liupan/skip)
 1 点击按钮，链接跳转到国科大主页(http://www.gucas.ac.cn/)
@@ -58,6 +58,28 @@
 <img src="/lib/courses.PNG" width="700"> 
 
 2 增加课程
+
+<img src="/lib/coursecreate.PNG" width="700"> 
+
+<img src="/lib/coursecreateshow.PNG" width="700"> 
+
+3 修改课程
+
+<img src="/lib/courseUpdate.PNG" width="700"> 
+
+<img src="/lib/courseupdate1.PNG" width="700"> 
+
+<img src="/lib/courseupdateshow.PNG" width="700"> 
+
+4 删除课程
+
+<img src="/lib/coursedestroy.PNG" width="700"> 
+
+<img src="/lib/coursedestroyshow.PNG" width="700"> 
+
+# 总结
+  适合帮助入门者学习ruby on rails
+
 
 
 
