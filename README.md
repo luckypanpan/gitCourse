@@ -12,7 +12,7 @@
 * 已经把本地代码部署到Heroku服务器,简单主页操作[请戳这里](https://liupan.herokuapp.com/liupan/skip)，数据库操作[请戳这里](https://liupan.herokuapp.com/courses)
   
 ## 终端代码操作:
-一、实现简单主页，[演示戳这里](https://liupan.herokuapp.com/liupan/skip)
+一、实现简单主页
 1) create a new Rails application
 ```
        rails new liu
@@ -26,7 +26,7 @@
 ```
        rails server
 ```
-二、 课程数据库增删改查及检查,[演示戳这里](https://liupan.herokuapp.com/courses)
+二、 课程数据库增删改查及检查
 1) 使用rails的scaffold创建Course模板
 ```
        rails generate scaffold Courses coursename:string period:integer credit:integer degreecourse:string examtype:string teacher:string  classplace:string 
@@ -40,7 +40,7 @@
        rails s
 ```
 # 结果展示和简述
-一、实现简单主页(https://liupan.herokuapp.com/liupan/skip)
+一、实现简单主页，[演示戳这里](https://liupan.herokuapp.com/liupan/skip)
 
 1 显示本地时间
 
@@ -54,7 +54,7 @@
 
 <img src="/lib/goodbye.PNG" width="700"> 
 
-二、 课程数据库增删改查及显示
+二、 课程数据库增删改查及显示，[演示戳这里](https://liupan.herokuapp.com/courses)
 
 1 展示界面
 
