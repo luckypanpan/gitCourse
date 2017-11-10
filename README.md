@@ -8,7 +8,7 @@
 
 * 使用[Postgresql](http://postgresapp.com/)作为数据库
 * 使用Heroku云部署，部署过程[请戳这里](http://limodou.github.io/uliweb-doc/zh_CN/heroku.html)
-* 创建Git远程项目并上传本地代码,详情[请点击](http://blog.csdn.net/ppp8300885/article/details/78484781)
+* 创建Git远程项目并上传本地代码,详情[请戳这里](http://blog.csdn.net/ppp8300885/article/details/78484781)
   
 ## 终端代码操作:
 一、实现简单主页，[演示戳这里](https://liupan.herokuapp.com/liupan/skip)
@@ -34,12 +34,13 @@
 ```
        rake db:migrate
 ```
-3)启动rails服务器
+3) 启动rails服务器
 ```
        rails s
 ```
 # 结果展示和简述
 一、实现简单主页(https://liupan.herokuapp.com/liupan/skip)
+
 1 点击按钮，链接跳转到国科大主页(http://www.gucas.ac.cn/)
 
 <img src="/lib/University of Chinese Academy of Sciences.PNG" width="700">
@@ -53,6 +54,7 @@
 <img src="/lib/goodbye.PNG" width="700"> 
 
 二、 课程数据库增删改查及显示
+
 1 展示界面
 
 <img src="/lib/courses.PNG" width="700"> 
@@ -78,6 +80,7 @@
 <img src="/lib/coursedestroyshow.PNG" width="700"> 
 
 # 总结
+
   适合帮助入门者学习ruby on rails
 
 
