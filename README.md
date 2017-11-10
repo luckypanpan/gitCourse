@@ -9,7 +9,7 @@
 * 使用[Postgresql](http://postgresapp.com/)作为数据库
 * 使用Heroku云部署，部署过程[请戳这里](http://limodou.github.io/uliweb-doc/zh_CN/heroku.html)
 * 创建Git远程项目并上传本地代码,详情[请戳这里](http://blog.csdn.net/ppp8300885/article/details/78484781)
-* 已经把本地代码部署到Heroku服务器,简单主页操作[请戳这里](https://liupan.herokuapp.com/liupan/skip)，数据库操作[请戳这里](https://liupan.herokuapp.com/courses)
+* 已经把本地代码部署到Heroku服务器,简单主页操作https://liupan.herokuapp.com/liupan/skip 和数据库操作https://liupan.herokuapp.com/courses
   
 ## 终端代码操作:
 一、实现简单主页
