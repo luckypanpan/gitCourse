@@ -11,7 +11,7 @@
 * 创建Git远程项目并上传本地代码,详情[请点击](http://blog.csdn.net/ppp8300885/article/details/78484781)
   
 ## 使用:
-# 页面跳转，[演示戳这里](https://liupan.herokuapp.com/liupan/skip)
+一、页面跳转，[演示戳这里](https://liupan.herokuapp.com/liupan/skip)
 1) create a new Rails application
 ```
       rails new liu
@@ -25,8 +25,8 @@
  ```
        rails server
  ```
- # 课程数据库增删改查,[演示戳这里](https://liupan.herokuapp.com/courses)
- ```
+ 二、 课程数据库增删改查,[演示戳这里](https://liupan.herokuapp.com/courses)
+```
  rails generate controller courses
  rails server
- ```    
+```    
