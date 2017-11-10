@@ -11,7 +11,7 @@
 * 创建Git远程项目并上传本地代码,详情[请点击](http://blog.csdn.net/ppp8300885/article/details/78484781)
   
 ## 终端代码操作:
-一、页面跳转，[演示戳这里](https://liupan.herokuapp.com/liupan/skip)
+一、实现简单主页，[演示戳这里](https://liupan.herokuapp.com/liupan/skip)
 1) create a new Rails application
 ```
        rails new liu
@@ -25,10 +25,27 @@
 ```
        rails server
 ```
- 二、 课程数据库增删改查,[演示戳这里](https://liupan.herokuapp.com/courses)
- ```
-       rails generate controller courses
-       rails server
-
+二、 课程数据库增删改查及检查,[演示戳这里](https://liupan.herokuapp.com/courses)
+1)使用rails的scaffold创建Course模板
+  ```
+       rails generate scaffold Courses coursename:string period:integer credit:integer degreecourse:string examtype:string teacher:string  classplace:string 
+``` 
+2)数据库迁移
+  ```
+       rake db:migrate
 ```
+3)启动rails服务器
+   ```
+       rails s
+ ```
+# 结果展示和简述
+一、实现简单主页(https://liupan.herokuapp.com/liupan/skip)
+1 点击按钮，链接跳转到国科大主页(http://www.gucas.ac.cn/)
+<img src="/lib/University of Chinese Academy of Sciences.PNG" width="700">  
+2 显示本地时间
+<img src="/lib/skip.PNG" width="700"> 
+3 点击按钮，跳转到goodbye页面
+<img src="/lib/goodbye.PNG" width="700"> 
+二、 课程数据库增删改查及显示
+<img src="/lib/courses.PNG" width="700"> 
 
